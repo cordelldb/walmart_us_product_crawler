@@ -1,3 +1,5 @@
 /.venv
 /.vscode
 /walmart-env
+/crawlers/spiders/data
+/crawlers/spiders/_pycache_

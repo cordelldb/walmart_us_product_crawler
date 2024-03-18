@@ -13,7 +13,7 @@ class WalmartSpider(scrapy.Spider):
         } 
 
     def start_requests(self):  
-        keyword_list = ['sony+playstation+5']
+        keyword_list = ['uniball']
         for keyword in keyword_list:
             payload = {'q': keyword, 'sort': 'best_match', 'page': 1, 'affinityOverride': 'default'}
             walmart_search_url = 'https://www.walmart.com/search?' + urlencode(payload)
